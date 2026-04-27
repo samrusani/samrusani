@@ -17,7 +17,10 @@ Based in Europe.
  
 - **OpenClaw (openclaw/openclaw)** — [PR #65203](https://github.com/openclaw/openclaw/pull/65203) (merged)  
   Fixed cron isolated-run sessionFile persistence and stale transcript handling.
- 
+
+- **Tari (tari-project/universe)** - [PR #3191](https://github.com/tari-project/universe/pull/3191) (merged)
+  Fixed first-send missing-file failure.
+   
 ---
  
 ## Get in Touch
