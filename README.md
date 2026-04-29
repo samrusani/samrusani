@@ -20,6 +20,13 @@ Based in Europe.
 
 - **Tari (tari-project/universe)** - [PR #3191](https://github.com/tari-project/universe/pull/3191) (merged)
   Fixed first-send missing-file failure.
+  
+- **Tari (tari-project/tari)** - [PR #7790](https://github.com/tari-project/tari/pull/7790) (merged)
+  Fixed RUSTSEC-2026-0111 by upgrading Diesel to 2.3.8 across affected crates.
+  
+- **Tari (tari-project/tari)** - [PR #7791](https://github.com/tari-project/tari/pull/7791) (merged)
+  Fixed RUSTSEC-2026-0104 by updating rustls-webpki to 0.103.13.
+
    
 ---
  
