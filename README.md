@@ -18,6 +18,12 @@ Based in Europe.
 - **OpenClaw (openclaw/openclaw)** — [PR #65203](https://github.com/openclaw/openclaw/pull/65203) (merged)  
   Fixed cron isolated-run sessionFile persistence and stale transcript handling.
 
+- **Hermes Agent (NousResearch/hermes-agent)** — PR #8464 (merged via #16821)  
+  Added outbound Matrix mention payloads so Matrix clients notify and highlight mentioned users correctly.
+
+- **Scrapling (D4Vinci/Scrapling)** — [PR #255](https://github.com/D4Vinci/Scrapling/pull/255) (merged, review contribution)  
+  Reviewed and locally validated a request fingerprinting fix; suggested regression tests that were added before merge.
+
 - **Tari (tari-project/universe)** - [PR #3191](https://github.com/tari-project/universe/pull/3191) (merged)
   Fixed first-send missing-file failure.
   
@@ -26,8 +32,7 @@ Based in Europe.
   
 - **Tari (tari-project/tari)** - [PR #7791](https://github.com/tari-project/tari/pull/7791) (merged)
   Fixed RUSTSEC-2026-0104 by updating rustls-webpki to 0.103.13.
-
-   
+    
 ---
  
 ## Get in Touch
