@@ -18,6 +18,8 @@ Based in Europe.
 - **OpenClaw (openclaw/openclaw)** — [PR #65203](https://github.com/openclaw/openclaw/pull/65203) (merged)  
   Fixed cron isolated-run sessionFile persistence and stale transcript handling.
 
+- Merged PR to OpenClaw fixing Bedrock session attribution crash: openclaw/openclaw#92991  
+
 - **Hermes Agent (NousResearch/hermes-agent)** — PR #8464 (merged via #16821)  
   Added outbound Matrix mention payloads so Matrix clients notify and highlight mentioned users correctly.
 
