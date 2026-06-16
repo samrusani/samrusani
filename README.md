@@ -26,6 +26,8 @@ Based in Europe.
 - **Scrapling (D4Vinci/Scrapling)** — [PR #255](https://github.com/D4Vinci/Scrapling/pull/255) (merged, review contribution)  
   Reviewed and locally validated a request fingerprinting fix; suggested regression tests that were added before merge.
 
+- OpenHuman: Fixed numeric hallucination guardrails in agent prompts by adding exact numeric evidence rules and regression tests. Merged [PR #3678](https://github.com/tinyhumansai/openhuman/pull/3678), closing issue #3603.  
+
 - **Tari (tari-project/universe)** - [PR #3191](https://github.com/tari-project/universe/pull/3191) (merged)
   Fixed first-send missing-file failure.
   
