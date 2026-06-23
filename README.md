@@ -23,6 +23,8 @@ Based in Europe.
 - **Hermes Agent (NousResearch/hermes-agent)** — PR #8464 (merged via #16821)  
   Added outbound Matrix mention payloads so Matrix clients notify and highlight mentioned users correctly.
 
+- Merged OSS auth-session persistence fix in tinyhumansai/openhuman (#3746): hardened deferred validation across transient /auth/me failures, env-scoped configs, and activation/cleanup edge cases. 
+
 - **Scrapling (D4Vinci/Scrapling)** — [PR #255](https://github.com/D4Vinci/Scrapling/pull/255) (merged, review contribution)  
   Reviewed and locally validated a request fingerprinting fix; suggested regression tests that were added before merge.
 
