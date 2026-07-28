@@ -77,4 +77,4 @@ Recent merged work across Rust, TypeScript, Python, desktop agents, MCP tooling,
  
 - **X:** [@samrusani](https://x.com/samrusani)  
 - **LinkedIn:** [samirusani](https://www.linkedin.com/in/samirusani/)  
-- **Web:** [samirusani.com](https://samirusani.com)
+- **Web:** [samirusani.com](https://www.samirusani.com)
