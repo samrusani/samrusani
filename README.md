@@ -15,6 +15,7 @@ Based in Europe.
 Recent merged work across Rust, TypeScript, Python, desktop agents, MCP tooling, CI, and reliability.
 
 - **Hermes Agent** — [MoA preset controls](https://github.com/NousResearch/hermes-agent/pull/70283), [OAuth recovery](https://github.com/NousResearch/hermes-agent/pull/61951), and [updater permission handling](https://github.com/NousResearch/hermes-agent/pull/58754).
+- **OpenClaw** — [Control UI tool expansion](https://github.com/openclaw/openclaw/pull/74398), [cron session persistence](https://github.com/openclaw/openclaw/pull/65203), and [Bedrock attribution handling](https://github.com/openclaw/openclaw/pull/92991).
 - **OpenHuman** — [Claude CLI Windows reliability](https://github.com/tinyhumansai/openhuman/pull/5103), [MCP registry error handling](https://github.com/tinyhumansai/openhuman/pull/4716), and [approval-route race fixes](https://github.com/tinyhumansai/openhuman/pull/4786).
 - **Tari** — [dependency security updates](https://github.com/tari-project/tari/pull/7918), [Cucumber/JUnit dependency maintenance](https://github.com/tari-project/tari/pull/7915), and [desktop/node recovery fixes](https://github.com/tari-project/universe/pull/3327).
 - **MiroFish** — [long-document ontology sampling](https://github.com/666ghj/MiroFish/pull/584) and [ARM64 Docker build support](https://github.com/666ghj/MiroFish/pull/731).
@@ -28,6 +29,12 @@ Recent merged work across Rust, TypeScript, Python, desktop agents, MCP tooling,
 - [#59743 / #70283](https://github.com/NousResearch/hermes-agent/pull/70283) — Added persisted enable/disable controls for Desktop MoA presets.
 - [#60048 / #61951](https://github.com/NousResearch/hermes-agent/pull/61951) — Recovered provider runtime auth from shared OAuth state.
 - [#47884 / #58754](https://github.com/NousResearch/hermes-agent/pull/58754) — Prevented updater failure when `/Applications` is unwritable.
+
+### OpenClaw
+
+- [#74398](https://github.com/openclaw/openclaw/pull/74398) — Fixed verbose-full Control UI tool expansion.
+- [#65203](https://github.com/openclaw/openclaw/pull/65203) — Fixed cron isolated-run session persistence and stale transcripts.
+- [#92991](https://github.com/openclaw/openclaw/pull/92991) — Fixed missing attribution-base URL handling.
 
 ### OpenHuman
 
@@ -55,9 +62,6 @@ Recent merged work across Rust, TypeScript, Python, desktop agents, MCP tooling,
 - [MiroFish #584](https://github.com/666ghj/MiroFish/pull/584) — Sampled long ontology input across the document instead of truncating from the front.
 - [MiroFish #588 / #731](https://github.com/666ghj/MiroFish/pull/731) — Added safe ARM64 Docker image builds.
 - [Paperclip #8562](https://github.com/paperclipai/paperclip/pull/8562) — Added safe Office MIME inference and upload coverage.
-- [OpenClaw #74398](https://github.com/openclaw/openclaw/pull/74398) — Fixed verbose-full Control UI tool expansion.
-- [OpenClaw #65203](https://github.com/openclaw/openclaw/pull/65203) — Fixed cron isolated-run session persistence and stale transcripts.
-- [OpenClaw #92991](https://github.com/openclaw/openclaw/pull/92991) — Fixed missing attribution-base URL handling.
 - [Scrapling #360](https://github.com/D4Vinci/Scrapling/pull/360) — Added custom Chromium executable support for MCP browser tools.
 - [Scrapling #358](https://github.com/D4Vinci/Scrapling/pull/358) — Review contribution: caught a duplicate-request checkpoint edge case before merge.
 - [Scrapling #255](https://github.com/D4Vinci/Scrapling/pull/255) — Review contribution: prompted regression coverage for fingerprint kwargs and headers.
